@@ -1,4 +1,4 @@
-System Suported
+Sistema suportado
 
 Ubuntu 14
 Debian 8
