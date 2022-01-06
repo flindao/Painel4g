@@ -1,11 +1,10 @@
-Sistema suportado
+Sistema Suportado
 
 Ubuntu 14
 Debian 8
 
 Install script
-https://github.com/flindao/painel
-https://raw.githubusercontent.com/flindao/
+
 apt-get update -y && apt-get upgrade -y && wget https://raw.githubusercontent.com/flindao/painel/painel4g/int4g.sh && chmod +x Int4g.sh && ./int4g.sh
 
 ou
