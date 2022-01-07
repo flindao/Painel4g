@@ -1,4 +1,4 @@
-Sistema Suportado
+Sistema Suportado Painel 4G
 
 Ubuntu 14
 Debian 8
