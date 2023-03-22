@@ -40,7 +40,7 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 chmod +x /usr/local/bin/composer
 cd /var/www/html || exit
-wget https://github.com/flindao/painel/raw/main/painel4g/internet4g.zip > /dev/null 2>&1
+wget https://raw.githubusercontent.com/flindao/painel/main/painel4g/internet4g.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
 unzip painel4g.zip > /dev/null 2>&1
 chmod -R 777 /var/www/html
