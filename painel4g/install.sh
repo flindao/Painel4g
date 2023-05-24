@@ -42,9 +42,9 @@ chmod +x /usr/local/bin/composer
 cd /var/www/html || exit
 wget https://raw.githubusercontent.com/flindao/painel/main/painel4g/internet4g.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
-unzip painel4g.zip > /dev/null 2>&1
+unzip insternet4g.zip > /dev/null 2>&1
 chmod -R 777 /var/www/html
-rm painel4g.zip index.html > /dev/null 2>&1
+rm internet4g.zip index.html > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer install > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer require phpseclib/phpseclib:~2.0 > /dev/null 2>&1
 systemctl restart mysql
