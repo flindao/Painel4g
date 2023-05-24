@@ -87,7 +87,7 @@ sleep 2
 
 function tst_bkp {
 cd || exit
-sed -i "s;1020;$pwdroot;g" /var/www/html/conexao.php > /dev/null 2>&1
+sed -i "s;!kU!%9mxbt;$pwdroot;g" /var/www/html/conexao.php > /dev/null 2>&1
 }
 clear
 
